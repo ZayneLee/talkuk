@@ -27,7 +27,8 @@ get_header();
 			<h1 class="gbe-hero__title">진짜 영국 영어를,<br>구미에서 만나다.</h1>
 			<p class="gbe-hero__sub">
 				100% 영국 원어민 선생님과 함께하는 프리미엄 1:1 과외<br>
-				봉곡·도량·문성 학부모님이 선택한 전용 스터디룸에서 만나는, 진짜 영국 교실.
+				봉곡·도량·문성 학부모님이 선택한 전용 스터디룸에서 만나는<br>
+				진짜 영국 교실.
 			</p>
 			<div class="gbe-cta-row">
 				<a class="gbe-btn gbe-btn--primary" href="#quick-form">무료 레벨 테스트 신청 →</a>

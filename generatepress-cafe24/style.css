@@ -194,7 +194,7 @@ Text Domain: generatepress-cafe24
 .gbe-price ul { display: inline-block; text-align: left; }
 .gbe-price ul li { padding: 8px 0; font-size: 15px; border-bottom: 1px dashed var(--gbe-line); }
 .gbe-price ul li:last-child { border: none; }
-.gbe-fineprint { text-align: center; color: var(--gbe-gray); font-size: 13px; margin-top: 32px; }
+.gbe-fineprint { text-align: center; color: var(--gbe-gray); font-size: 13px; margin-top: 56px; }
 .gbe-fineprint--light { color: rgba(255,255,255,0.7); }
 
 /* ── Contact Form ────────────────────────────────── */
