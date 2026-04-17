@@ -91,7 +91,7 @@ function gbe_handle_contact() {
 	$name  = sanitize_text_field( wp_unslash( $_POST['parent_name'] ?? '' ) );
 	$phone = sanitize_text_field( wp_unslash( $_POST['phone']       ?? '' ) );
 	$grade = sanitize_text_field( wp_unslash( $_POST['grade']       ?? '' ) );
-	$area  = sanitize_text_field( wp_unslash( $_POST['area']        ?? '' ) );
+	$class_type = sanitize_text_field( wp_unslash( $_POST['class_type'] ?? '' ) );
 	$msg   = sanitize_textarea_field( wp_unslash( $_POST['message'] ?? '' ) );
 
 	if ( empty( $name ) || empty( $phone ) ) {
@@ -106,7 +106,7 @@ function gbe_handle_contact() {
 	$body .= "학부모 성함: {$name}\n";
 	$body .= "연락처: {$phone}\n";
 	$body .= "학생 학년: {$grade}\n";
-	$body .= "거주 지역: {$area}\n\n";
+	$body .= "희망 수업 형태: {$class_type}\n\n";
 	$body .= "── 문의 내용 ──\n";
 	$body .= $msg ? $msg : '(내용 없음)';
 

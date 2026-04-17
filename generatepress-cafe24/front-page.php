@@ -8,8 +8,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // 🔧 이 부분만 실제 값으로 교체하세요 ─────────────────────
-$gbe_kakao_url = 'https://open.kakao.com/YOUR-LINK';
-$gbe_phone     = '010-0000-0000';
+$gbe_kakao_url = 'https://open.kakao.com/o/s9dC7J5h';
+$gbe_phone     = '010-7767-7475';
 $gbe_phone_tel = 'tel:' . preg_replace( '/[^0-9]/', '', $gbe_phone );
 // ────────────────────────────────────────────────────────
 
@@ -27,7 +27,7 @@ get_header();
 			<h1 class="gbe-hero__title">진짜 영국 영어를,<br>구미에서 만나다.</h1>
 			<p class="gbe-hero__sub">
 				100% 영국 원어민 선생님과 함께하는 프리미엄 1:1 과외<br>
-				봉곡동 전용 스터디룸에서 만나는, 진짜 영국 교실.
+				봉곡·도량·문성 학부모님이 선택한 전용 스터디룸에서 만나는, 진짜 영국 교실.
 			</p>
 			<div class="gbe-cta-row">
 				<a class="gbe-btn gbe-btn--primary" href="#quick-form">무료 레벨 테스트 신청 →</a>
@@ -36,7 +36,7 @@ get_header();
 			<ul class="gbe-trust">
 				<li>⭐ 영국 학사 출신</li>
 				<li>👩‍🏫 5년+ 티칭 경력</li>
-				<li>🏠 구미 봉곡동 스튜디오 운영</li>
+				<li>🏠 봉곡동 소재 (도량·문성 10분 거리) 전용 스튜디오</li>
 			</ul>
 		</div>
 	</section>
@@ -124,10 +124,10 @@ get_header();
 					<span class="gbe-curri__tag">초등부 · 1–6학년</span>
 					<h3>흥미로, 영어와 평생 친구가 되는 시간</h3>
 					<ul>
-						<li><strong>Phonics Mastery</strong> — 영국식 파닉스 규칙으로 처음부터 제대로</li>
+						<li><strong>Phonics Mastery</strong> — BBC 아나운서의 정확한 입모양으로, 영국식 파닉스를 처음부터 또렷하게</li>
 						<li><strong>Storytime Speaking</strong> — 영국 그림책·동요로 자연스러운 기초 회화</li>
 						<li><strong>Fun Vocabulary Games</strong> — 놀이처럼 익히는 어휘 확장</li>
-						<li><strong>발표 자신감 UP</strong> — 매 수업 마지막 5분, '미니 발표'</li>
+						<li><strong>Mini Presentation</strong> — 매 수업 마지막 5분, 작은 무대에서 영어로 반짝이는 우리 아이</li>
 					</ul>
 					<blockquote>"영어 책 읽어달라고 조르는 아이, 직접 만들어 드리겠습니다."</blockquote>
 				</article>
@@ -137,6 +137,7 @@ get_header();
 					<h3>내신 1등급과 진짜 실력, 둘 다 잡는 시간</h3>
 					<ul>
 						<li><strong>내신 완벽 대비</strong> — 구미 지역 중학교 교과서·기출 밀착 분석</li>
+						<li><strong>50분 압축 수업</strong> — 단 1분의 낭비도 없는 타이트한 커리큘럼 설계</li>
 						<li><strong>수행평가 A+ 전략</strong> — 에세이·스피킹 1:1 첨삭</li>
 						<li><strong>Academic Writing</strong> — 서론-본론-결론 논리적 영작</li>
 						<li><strong>Real British Discussion</strong> — 시사·문화 주제 토론</li>
@@ -175,19 +176,20 @@ get_header();
 						</svg>
 					</div>
 					<p class="gbe-kicker gbe-kicker--dark">MEET YOUR TEACHER</p>
-					<h2>Hello from Ciera 🇬🇧</h2>
+					<h2>안녕하세요, 키라(Ciera)입니다 🇬🇧</h2>
 					<ul class="gbe-bio">
 						<li>🎓 University of Leeds, B.A. in English Education</li>
 						<li>📜 CELTA · TEFL 국제 공인 자격증</li>
 						<li>🇬🇧 영국 출생, 사우스엔드온시 성장</li>
 						<li>🏫 5년+ 초·중등 영어 교육 경력</li>
-						<li>🏡 구미시 봉곡동 전용 스터디룸 운영</li>
+						<li>🏡 봉곡·도량·문성 지역 밀착형 영국식 스터디룸</li>
 					</ul>
 					<blockquote class="gbe-letter">
 						안녕하세요, 학부모님. 키라입니다.<br><br>
 						영국에서 나고 자란 제가 한국, 그중에서도 구미라는 따뜻한 도시에 자리를 잡은 이유는 단 하나입니다. <strong>아이들의 반짝이는 눈빛</strong> 때문이었어요.<br><br>
 						영어는 시험 과목이 아니라, 세상을 두 배 넓게 보는 창(窓)입니다. 제가 자라며 사랑했던 영국의 이야기, 발음, 그리고 예의 바른 대화의 품격을 구미의 아이들에게 정성껏 전해드리겠습니다.<br><br>
-						<em>— Warmly, Ciera 💌</em>
+						<strong>우리 동네에서 만나는 작은 영국, Ciera English에서 기다리겠습니다.</strong><br><br>
+						<em>— 구미 봉곡동에서, Warmly, Ciera 💌</em>
 					</blockquote>
 				</div>
 			</div>
@@ -200,40 +202,40 @@ get_header();
 			<header class="gbe-section__head">
 				<p class="gbe-kicker gbe-kicker--dark">TUITION</p>
 				<h2>수강료 안내</h2>
-				<p class="gbe-lead">첫 수업 <strong>30분 무료 레벨 테스트 &amp; 학부모 상담</strong> 제공</p>
+				<p class="gbe-lead">대형 학원의 복잡한 시스템 대신, <strong>영국 원어민 선생님과 직접 소통</strong>하며 아이의 성장을 확인하세요.<br>첫 수업 <strong>30분 무료 레벨 테스트 &amp; 학부모 상담</strong> 제공</p>
 			</header>
 
 			<div class="gbe-grid gbe-grid--3">
 				<article class="gbe-price">
 					<h3>1:1 개인 과외</h3>
-					<p class="gbe-price__amt">월 60~90<span>만원</span></p>
+					<p class="gbe-price__amt">월 40~55<span>만원</span></p>
 					<ul>
-						<li>초등부 60분 · 주 2회</li>
-						<li>중등부 80분 · 주 2회</li>
-						<li>완전 맞춤 커리큘럼</li>
+						<li>초등부 50분 · 주 2회</li>
+						<li>중등부 50분 · 주 2회</li>
+						<li>집중도 높은 1:1 맞춤 코칭</li>
 					</ul>
 				</article>
 				<article class="gbe-price gbe-price--featured">
 					<span class="gbe-price__badge">BEST</span>
 					<h3>2인 소그룹</h3>
-					<p class="gbe-price__amt">월 45~55<span>만원 / 인</span></p>
+					<p class="gbe-price__amt">월 30~35<span>만원 / 인</span></p>
 					<ul>
+						<li>50분 · 주 2회 집중 수업</li>
+						<li>친구·형제 동반 등록 추천</li>
 						<li>또래와 함께 시너지 ↑</li>
-						<li>스피킹 페어 워크 다수</li>
-						<li>형제·친구 매칭 가능</li>
 					</ul>
 				</article>
 				<article class="gbe-price">
 					<h3>3–4인 그룹</h3>
-					<p class="gbe-price__amt">월 35~42<span>만원 / 인</span></p>
+					<p class="gbe-price__amt">월 22~28<span>만원 / 인</span></p>
 					<ul>
-						<li>합리적 비용</li>
-						<li>활발한 토론·발표 수업</li>
+						<li>50분 · 주 2회 집중 수업</li>
+						<li>합리적 비용의 소수정예</li>
 						<li>동일 레벨 매칭</li>
 					</ul>
 				</article>
 			</div>
-			<p class="gbe-fineprint">※ 교재비 별도 · 전 수업은 봉곡동 전용 스터디룸에서 진행됩니다</p>
+			<p class="gbe-fineprint">※ 교재비 별도 · 전 수업은 봉곡동 전용 스터디룸 (도량동·문성지구 인접) 에서 진행됩니다</p>
 		</div>
 	</section>
 
@@ -280,18 +282,13 @@ get_header();
 							<option>기타</option>
 						</select>
 					</label>
-					<label>거주 지역
-						<select name="area">
+					<label>희망 수업 형태
+						<select name="class_type">
 							<option value="">선택해 주세요</option>
-							<option>봉곡동</option>
-							<option>형곡동</option>
-							<option>송정동</option>
-							<option>원평동</option>
-							<option>사곡동</option>
-							<option>상모·사곡</option>
-							<option>인동·진미</option>
-							<option>옥계·산동</option>
-							<option>기타 구미 지역</option>
+							<option>1:1 개인 과외</option>
+							<option>2인 소그룹</option>
+							<option>3–4인 그룹</option>
+							<option>아직 고민 중</option>
 						</select>
 					</label>
 				</div>
