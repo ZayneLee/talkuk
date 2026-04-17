@@ -65,12 +65,13 @@ Text Domain: generatepress-cafe24
 
 /* ── Buttons ─────────────────────────────────────── */
 .gbe-cta-row { display: flex; gap: 14px; flex-wrap: wrap; margin: 32px 0 24px; }
-.gbe-cta-row--stack { flex-direction: column; align-items: stretch; }
+.gbe-cta-row--stack { flex-direction: column; align-items: stretch; min-width: 0; overflow: hidden; }
 .gbe-btn {
 	display: inline-block; padding: 16px 28px; border-radius: 999px;
 	font-weight: 700; font-size: 16px; text-decoration: none;
 	transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
 	border: 2px solid transparent; text-align: center; cursor: pointer;
+	box-sizing: border-box; max-width: 100%;
 }
 .gbe-btn:hover { transform: translateY(-2px); box-shadow: 0 12px 28px rgba(0,0,0,0.15); }
 .gbe-btn--primary { background: var(--gbe-crimson); color: #fff; }
@@ -328,7 +329,7 @@ Text Domain: generatepress-cafe24
 	.gbe-trust li { line-height: 1.5; }
 
 	/* Buttons — stack full width for thumb reach */
-	.gbe-cta-row { gap: 10px; margin: 24px 0 18px; }
+	.gbe-cta-row { gap: 10px; margin: 24px 0 18px; max-width: 100%; }
 	.gbe-cta-row .gbe-btn { width: 100%; }
 	.gbe-btn { padding: 14px 20px; font-size: 15px; }
 	.gbe-btn--kakao { padding: 16px 22px; font-size: 16px; }
