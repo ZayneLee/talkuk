@@ -1,0 +1,110 @@
+═══════════════════════════════════════════════════════════════
+GUMI BRITISH ENGLISH TUTORING — IMAGE GENERATION PROMPTS
+Engines tested: Midjourney v6.1, Flux 1.1 Pro, Nano Banana, DALL·E 3
+Save finals to: /wp-content/themes/generatepress-cafe24/images/
+═══════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────┐
+│ #1  HERO BANNER  →  save as  hero.jpg                       │
+│ Aspect: 16:9   Resolution: 2560×1440 min                    │
+└─────────────────────────────────────────────────────────────┘
+
+Editorial photograph, cinematic 16:9, 4K ultra-detailed. A warm
+British female teacher, early 30s, natural brown wavy hair, soft
+genuine smile, wearing a cream cashmere sweater with a subtle
+Union Jack silk scarf. She leans forward engagingly, teaching
+three Korean elementary students (ages 9-11) seated around a
+light oak table. Open picture book and colorful phonics flashcards
+on the table. Warm golden afternoon sunlight from a tall window
+on camera-left, natural rim light, soft lens flare. Background:
+tasteful study room, small bookshelf, framed vintage London map,
+red ceramic teapot. Shallow depth of field f/2.0, 50mm lens,
+Kodak Portra 400 color grade, natural skin tones, no text, no
+logos. --ar 16:9 --style raw --v 6.1
+
+Negative: cartoon, anime, plastic skin, heavy makeup, text,
+watermark, stock photo look, fake smile, staring at camera.
+
+
+┌─────────────────────────────────────────────────────────────┐
+│ #2  ICON SET  →  save as  icon-phone.svg, icon-tea.svg,     │
+│                  icon-stpauls.svg, icon-scroll.svg          │
+│ Aspect: 1:1    Resolution: 512×512 each (or SVG)            │
+└─────────────────────────────────────────────────────────────┘
+
+Set of 4 minimal flat-design vector icons, strict two-color
+palette of #0A2342 navy and #C8102E crimson on pure #FFFFFF
+white background, arranged in 2x2 grid. Icons: (1) classic
+British red telephone box with subtle crown detail on top,
+(2) porcelain teacup on saucer with single curling steam wisp,
+(3) stylized silhouette of St Paul's Cathedral dome, (4) rolled
+academic diploma scroll tied with ribbon beside mortarboard cap.
+Clean geometric lines, 2px stroke weight, rounded corners,
+modern academic aesthetic, isometric-lite. Generous negative
+space. No text, no shadows, SVG-style flat illustration.
+--ar 1:1 --style raw --v 6.1
+
+Tip: generate as SVG via Flux or recreate in Figma for crisp
+scaling. If raster only, export 512×512 PNG with transparency.
+
+
+┌─────────────────────────────────────────────────────────────┐
+│ #3  TEACHER PORTRAIT  →  save as  teacher-portrait.jpg      │
+│ Aspect: 3:4    Resolution: 1200×1600 min                    │
+└─────────────────────────────────────────────────────────────┘
+
+Candid documentary-style portrait photograph, 3:4 portrait,
+4K photorealistic. British female teacher, early 30s, sitting
+side-by-side at a study desk with a Korean middle-school student
+(age 14, girl, school uniform blazer). The teacher points at
+something in the student's notebook with a warm encouraging
+smile; the student smiles back with a genuine 'aha' expression.
+Natural window light from the left, soft shadows, authentic
+mentorship moment. Background: blurred bookshelf with English
+novels (Harry Potter, Pride and Prejudice spines partly visible).
+Warm color grade, shallow depth of field f/2.2, 85mm lens.
+No staged corporate feel — caught moment. No text, no logos.
+--ar 3:4 --style raw --v 6.1
+
+Negative: posed, corporate headshot, cold lighting, glasses-heavy
+composition, text overlay.
+
+
+┌─────────────────────────────────────────────────────────────┐
+│ #4  CONTACT CTA  →  save as  contact.jpg                    │
+│ Aspect: 4:5    Resolution: 1200×1500 min                    │
+└─────────────────────────────────────────────────────────────┘
+
+Warm inviting portrait photograph, 4:5 aspect ratio, 4K
+photorealistic editorial quality. British female teacher,
+early 30s, cream-colored blouse, standing in a sunlit doorway
+or cozy home-study entrance, waving happily at the camera with
+a genuine open-mouthed smile — mid-laugh, authentic not posed.
+Background heavily blurred bokeh (f/1.8) revealing a soft wooden
+signboard with hand-lettered chalk-style Korean text reading
+"상담하기" in warm ivory tones. Golden hour lighting, warm color
+temperature 3200K, soft skin tones, subtle film grain. Teacher
+occupies right 60% of frame, negative space on left for text
+overlay. No other text, no logos. --ar 4:5 --style raw --v 6.1
+
+Note on "상담하기" Korean text: most western image models butcher
+Korean characters. Two options:
+  (a) generate without any text, then add "상담하기" signboard
+      in Photoshop/Canva afterward
+  (b) use Nano Banana or DALL·E 3 (better Korean text rendering)
+
+
+═══════════════════════════════════════════════════════════════
+GLOBAL STYLE NOTES — apply across all 4 images for cohesion
+═══════════════════════════════════════════════════════════════
+
+• Color temperature: warm 3200-3500K (avoid cool/blue tints)
+• Grain: subtle film grain, Kodak Portra or Fuji 400H emulation
+• Skin tones: natural, never over-smoothed
+• Teacher consistency: same face, same hair, same warm aesthetic
+  → generate all 4 in one session with seed reference if engine supports
+• Ethnicity: teacher = white British, students = Korean (age-appropriate)
+• NO: stock smiles, teeth-showing corporate grin, fake lighting,
+  excessive bokeh, text watermarks, AI-obvious artifacts
+
+═══════════════════════════════════════════════════════════════
