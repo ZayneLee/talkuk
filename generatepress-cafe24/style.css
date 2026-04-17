@@ -42,7 +42,15 @@ Text Domain: generatepress-cafe24
 .gbe-section { padding: 120px 0; }
 .gbe-section__head { text-align: center; margin-bottom: 64px; }
 .gbe-section__head h2 { font-size: clamp(28px, 4vw, 44px); margin: 8px 0 16px; }
-.gbe-lead { font-size: 17px; color: var(--gbe-gray); max-width: 720px; margin: 0 auto; }
+.gbe-lead { font-size: 17px; color: var(--gbe-gray); max-width: 720px; margin: 0 auto; text-align: center; }
+
+/* ── Site Footer (GeneratePress) ─────────────────── */
+.site-footer,
+.site-info,
+.site-info .copyright-bar,
+.footer-widgets,
+.footer-bar { text-align: center; }
+.site-info .inside-site-info { justify-content: center; text-align: center; }
 
 .gbe-kicker {
 	font-family: 'Playfair Display', serif;

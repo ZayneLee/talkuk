@@ -34,7 +34,7 @@ get_header();
 				<a class="gbe-btn gbe-btn--ghost" href="<?php echo esc_url( $gbe_kakao_url ); ?>" target="_blank" rel="noopener">카카오톡 상담</a>
 			</div>
 			<ul class="gbe-trust">
-				<li>⭐ 런던 교육 학사 출신</li>
+				<li>⭐ 영국 학사 출신</li>
 				<li>👩‍🏫 5년+ 티칭 경력</li>
 				<li>🏠 구미 봉곡동 스튜디오 운영</li>
 			</ul>
@@ -121,7 +121,7 @@ get_header();
 
 			<div class="gbe-grid gbe-grid--2">
 				<article class="gbe-curri gbe-curri--elem">
-					<span class="gbe-curri__tag">초등부 · 4–6학년</span>
+					<span class="gbe-curri__tag">초등부 · 1–6학년</span>
 					<h3>흥미로, 영어와 평생 친구가 되는 시간</h3>
 					<ul>
 						<li><strong>Phonics Mastery</strong> — 영국식 파닉스 규칙으로 처음부터 제대로</li>
@@ -179,7 +179,7 @@ get_header();
 					<ul class="gbe-bio">
 						<li>🎓 University of Leeds, B.A. in English Education</li>
 						<li>📜 CELTA · TEFL 국제 공인 자격증</li>
-						<li>🇬🇧 영국 런던 출생, 요크셔 성장</li>
+						<li>🇬🇧 영국 출생, 사우스엔드온시 성장</li>
 						<li>🏫 5년+ 초·중등 영어 교육 경력</li>
 						<li>🏡 구미시 봉곡동 전용 스터디룸 운영</li>
 					</ul>
@@ -268,6 +268,9 @@ get_header();
 					<label>학생 학년
 						<select name="grade">
 							<option value="">선택해 주세요</option>
+							<option>초등 1학년</option>
+							<option>초등 2학년</option>
+							<option>초등 3학년</option>
 							<option>초등 4학년</option>
 							<option>초등 5학년</option>
 							<option>초등 6학년</option>
