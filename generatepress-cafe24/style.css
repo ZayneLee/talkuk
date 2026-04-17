@@ -31,9 +31,12 @@ Text Domain: generatepress-cafe24
 	color: var(--gbe-navy);
 	line-height: 1.7;
 	background: var(--gbe-ivory);
+	word-break: keep-all;
+	overflow-wrap: break-word;
+	-webkit-text-size-adjust: 100%;
 }
 
-.gbe-landing h1, .gbe-landing h2, .gbe-landing h3 { font-family: 'Playfair Display', 'Noto Serif KR', serif; font-weight: 700; letter-spacing: -0.01em; }
+.gbe-landing h1, .gbe-landing h2, .gbe-landing h3 { font-family: 'Playfair Display', 'Noto Serif KR', serif; font-weight: 700; letter-spacing: -0.01em; word-break: keep-all; }
 .gbe-landing p { margin: 0 0 1em; }
 .gbe-landing ul { margin: 0; padding: 0; list-style: none; }
 
@@ -272,9 +275,6 @@ Text Domain: generatepress-cafe24
 	0%, 100% { box-shadow: 0 10px 30px rgba(0,0,0,0.22), 0 0 0 0 rgba(254, 229, 0, 0.6); }
 	50%      { box-shadow: 0 10px 30px rgba(0,0,0,0.22), 0 0 0 14px rgba(254, 229, 0, 0); }
 }
-@media (max-width: 600px) {
-	.gbe-float-kakao { bottom: 16px; right: 16px; padding: 12px 18px; font-size: 14px; }
-}
 
 /* ── Toast / flash messages ──────────────────────── */
 .gbe-toast {
@@ -291,13 +291,99 @@ Text Domain: generatepress-cafe24
 @keyframes gbe-fade-out   { to   { opacity: 0; visibility: hidden; } }
 
 /* ── Responsive ──────────────────────────────────── */
+
+/* Tablet ───────────────────────────── */
 @media (max-width: 900px) {
 	.gbe-section { padding: 80px 0; }
-	.gbe-grid--2, .gbe-grid--3 { grid-template-columns: 1fr; }
+	.gbe-landing .gbe-section__head { margin-bottom: 48px; }
+	.gbe-grid--2, .gbe-grid--3 { grid-template-columns: 1fr; gap: 20px; }
 	.gbe-teacher__grid, .gbe-contact__grid { grid-template-columns: 1fr; gap: 32px; }
 	.gbe-form__row { grid-template-columns: 1fr; gap: 0; }
 	.gbe-form { padding: 32px 24px; }
 	.gbe-price--featured { transform: none; }
 	.gbe-hero { min-height: 72vh; padding: 100px 24px 60px; }
 	.gbe-trust { gap: 12px; font-size: 13px; }
+	.gbe-curri { padding: 36px 28px; }
+	.gbe-teacher__photo { max-width: 420px; margin: 0 auto; }
+	.gbe-contact__photo { max-width: 420px; margin: 0 auto; }
+}
+
+/* Phone ─────────────────────────────── */
+@media (max-width: 600px) {
+	.gbe-container { padding: 0 18px; }
+	.gbe-section { padding: 56px 0; }
+	.gbe-landing .gbe-section__head { margin-bottom: 32px; }
+	.gbe-landing .gbe-lead { font-size: 15.5px; }
+
+	/* Hero */
+	.gbe-hero { min-height: 0; padding: 88px 18px 56px; }
+	.gbe-hero__title { margin: 10px 0 18px; }
+	.gbe-hero__sub { font-size: 15px; }
+	.gbe-hero__sub br { display: none; }
+	.gbe-kicker { font-size: 11px; letter-spacing: 0.2em; }
+	.gbe-trust {
+		flex-direction: column; gap: 8px;
+		padding-top: 18px; font-size: 13px;
+	}
+	.gbe-trust li { line-height: 1.5; }
+
+	/* Buttons — stack full width for thumb reach */
+	.gbe-cta-row { gap: 10px; margin: 24px 0 18px; }
+	.gbe-cta-row .gbe-btn { width: 100%; }
+	.gbe-btn { padding: 14px 20px; font-size: 15px; }
+	.gbe-btn--kakao { padding: 16px 22px; font-size: 16px; }
+	.gbe-btn--block { padding: 16px; font-size: 16px; }
+
+	/* Cards */
+	.gbe-card { padding: 28px 22px; }
+	.gbe-card h3 { font-size: 20px; }
+	.gbe-card__icon svg { width: 48px; height: 48px; }
+
+	/* Curriculum */
+	.gbe-curri { padding: 28px 22px; }
+	.gbe-curri h3 { font-size: 20px; margin: 0 0 16px; }
+	.gbe-curri ul li { font-size: 14.5px; padding: 9px 0 9px 24px; }
+	.gbe-curri blockquote { padding: 14px 16px; font-size: 14px; margin-top: 18px; }
+
+	/* Teacher */
+	.gbe-teacher__grid { gap: 24px; }
+	.gbe-teacher h2 { margin: 6px 0 18px; }
+	.gbe-bio li { font-size: 14.5px; padding: 7px 0; }
+	.gbe-letter { padding: 20px 18px; font-size: 14.5px; line-height: 1.85; }
+
+	/* Pricing */
+	.gbe-price { padding: 32px 24px; }
+	.gbe-price__amt { font-size: 34px; }
+	.gbe-price ul { display: block; }
+	.gbe-fineprint { margin-top: 32px; font-size: 12.5px; }
+
+	/* Form — 16px font prevents iOS auto-zoom */
+	.gbe-form { padding: 24px 18px; }
+	.gbe-form label { margin-bottom: 16px; font-size: 13.5px; }
+	.gbe-form input[type="text"],
+	.gbe-form input[type="tel"],
+	.gbe-form select,
+	.gbe-form textarea {
+		font-size: 16px; padding: 12px 14px;
+	}
+
+	/* Contact CTA */
+	.gbe-contact__grid { gap: 24px; }
+
+	/* Floating kakao — prevent overlap & keep tap target */
+	.gbe-landing { padding-bottom: 72px; }
+	.gbe-float-kakao {
+		bottom: 14px; right: 14px;
+		padding: 11px 16px; font-size: 13px;
+	}
+	.gbe-float-kakao__icon { font-size: 18px; }
+}
+
+/* Small phone ────────────────────────── */
+@media (max-width: 380px) {
+	.gbe-container { padding: 0 14px; }
+	.gbe-hero { padding: 76px 16px 48px; }
+	.gbe-hero__title br { display: none; }
+	.gbe-price__amt { font-size: 30px; }
+	.gbe-curri__tag { font-size: 12px; }
 }
